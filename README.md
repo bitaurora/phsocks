@@ -40,11 +40,11 @@ You can check to see if your socket has been opened by doing
 
 Data can be written to an open socket using
 
-	$phsock->ph\_write("This is a test message");
+	$phsock->ph_write("This is a test message");
 	
 Data can be read by using
 
-	$data = $phsock->ph\_read(numberofbytes);
+	$data = $phsock->ph_read(numberofbytes);
 
 Reading data should be done in a looping fashion.
 
